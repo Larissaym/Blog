@@ -1,0 +1,86 @@
+html {
+    font-family: Avenir, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+/* !!! */
+.square {
+    width: 180%;
+    height: 700%;
+    border: solid black;
+    background-color: black;
+}
+
+h2, h3, p, img {
+    margin-bottom: 1rem;
+}
+
+.article-spacer {
+    margin-bottom: 3rem;
+}
+
+.lp-spacer {
+    margin-top: 8rem;
+}
+
+footer div {
+    background-color: black;
+}
+
+/*=======================================
+ TEXTEINSTELLUNGEN
+ =======================================*/
+h2, header, footer, button {
+    font-family: "Arial Black", sans-serif;
+    font-size: large;
+}
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: "Arial Black", sans-serif;
+    font-size: medium;
+}
+
+h4 {
+    font-family: "Arial Black", sans-serif;
+    font-size: small;
+}
+
+.invert {
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/*=======================================
+ LINKEINSTELLUNGEN
+ =======================================*/
+a {
+    color: black;
+}
+
+a:hover, a:active {
+    color: #c5c5c5;
+    text-decoration: none;
+}
+.dropdown-item:active {
+    background-color: #c5c5c5;
+}
+
+a.active {
+    color: #c5c5c5;
+}
+
+
+
+/*=======================================
+BILDEINSTELLUNGEN
+=======================================*/

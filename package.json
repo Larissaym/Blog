@@ -1,0 +1,16 @@
+{
+  "name": "blog-larissa",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn && browser-sync start -s '.' --watch"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
