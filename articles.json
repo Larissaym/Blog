@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "title":"Winterabend",
+        "top": true,
+        "date":"09.01.2021",
+        "url": "/article-details/1",
+        "img": "/content/dummy-1400x900.jpg",
+        "keywords": [
+            "",""
+        ],
+        "author":"Larissa Meyer",
+        "content":"Not written yet"
+    },
+    {
+        "id": 2,
+        "title":"Lüge",
+        "top": false,
+        "date":"07.12.2020",
+        "url": "/article-details/2",
+        "img": "/content/dummy-1400x900.jpg",
+        "keywords": [
+            "",""
+        ],
+        "author":"Larissa Meyer",
+        "content":"Not written yet"
+    },
+    {
+        "id": 3,
+        "title":"Tödliches Gold",
+        "top": false,
+        "date":"03.11.2020",
+        "url": "/article-details/3",
+        "img": "/content/dummy-1400x900.jpg",
+        "keywords": [
+            "",""
+        ],
+        "author":"Larissa Meyer",
+        "content":"Not written yet"
+    },
+    {
+        "id": 4,
+        "title":"Wind",
+        "top": false,
+        "date":"06.10.2020",
+        "url": "/article-details/4",
+        "img": "/content/dummy-1400x900.jpg",
+        "keywords": [
+            "",""
+        ],
+        "author":"Larissa Meyer",
+        "content":"Not written yet"
+    },
+    {
+        "id": 5,
+        "title":"Innerer Kampf",
+        "top": false,
+        "date":"13.09.2020",
+        "url": "/article-details/5",
+        "img": "/content/dummy-1400x900.jpg",
+        "keywords": [
+            "",""
+        ],
+        "author":"Larissa Meyer",
+        "content":"Not written yet"
+    }
+]

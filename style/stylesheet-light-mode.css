@@ -12,7 +12,7 @@ html {
     background-color: black;
 }
 
-h2, h3, p, img {
+h2, h3, p, img, li {
     margin-bottom: 1rem;
 }
 
@@ -20,18 +20,19 @@ h2, h3, p, img {
     margin-bottom: 3rem;
 }
 
-.lp-spacer {
-    margin-top: 8rem;
-}
-
 footer div {
     background-color: black;
+}
+
+.scrollbar {
+    max-width: 100%; 
+    max-height: 35rem;
 }
 
 /*=======================================
  TEXTEINSTELLUNGEN
  =======================================*/
-h2, header, footer, button {
+h2, header, footer, button, li {
     font-family: "Arial Black", sans-serif;
     font-size: large;
 }
@@ -49,10 +50,6 @@ h3 {
 h4 {
     font-family: "Arial Black", sans-serif;
     font-size: small;
-}
-
-.invert {
-    color: white;
 }
 
 p {
@@ -84,3 +81,4 @@ a.active {
 /*=======================================
 BILDEINSTELLUNGEN
 =======================================*/
+
