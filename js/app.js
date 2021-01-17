@@ -18,9 +18,7 @@ $(document).ready(function(){
             $('.all-articles').append('<li><a href="' + article.url + '"><img class="w-50" src="' + article.img + '">' + article.title + '</a></li>')
 
         })
-    })
-
-
+    });
 
 
 });

@@ -4,6 +4,10 @@ html {
     color: black;
 }
 
+body {
+    background-color: black;
+}
+
 /* .square {
     width: 180%;
     height: 700%;
@@ -19,9 +23,6 @@ h2, h3, p, img, li {
     margin-bottom: 3rem;
 }
 
-footer div {
-    background-color: black;
-}
 
 .scrollbar {
     max-width: 100%; 
@@ -55,24 +56,36 @@ p {
     text-align: justify;
 }
 
+h1, h2, h3, h4, header, footer, button, li, p {
+    color: white;
+}
+
 
 /*=======================================
  LINKEINSTELLUNGEN
  =======================================*/
 a {
-    color: black;
+    color: white;
 }
 
 a:hover, a:active {
-    color: #c5c5c5;
+    color: #3f3f3f;
     text-decoration: none;
 }
 .dropdown-item:active {
-    background-color: #c5c5c5;
+    background-color: #3f3f3f;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+a.dropdown-item {
+    color: white;
 }
 
 a.active {
-    color: #c5c5c5;
+    color: #3f3f3f;
 }
 
 

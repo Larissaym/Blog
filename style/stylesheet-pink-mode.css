@@ -4,6 +4,10 @@ html {
     color: black;
 }
 
+body {
+    background-color: #50294d;
+}
+
 /* .square {
     width: 180%;
     height: 700%;
@@ -20,7 +24,7 @@ h2, h3, p, img, li {
 }
 
 footer div {
-    background-color: black;
+    background-color: #50294d;
 }
 
 .scrollbar {
@@ -55,6 +59,10 @@ p {
     text-align: justify;
 }
 
+h1, h2, h3, h4, header, footer, button, li, p {
+    color: black;
+}
+
 
 /*=======================================
  LINKEINSTELLUNGEN
@@ -64,15 +72,27 @@ a {
 }
 
 a:hover, a:active {
-    color: #c5c5c5;
+    color: #dec1df;
     text-decoration: none;
 }
 .dropdown-item:active {
-    background-color: #c5c5c5;
+    background-color: #dec1df;
+}
+
+.dropdown-item:hover {
+    background-color: #dec1df;
+}
+
+.dropdown-menu {
+    background-color: #50294d;
+}
+
+a.dropdown-item {
+    color: white;
 }
 
 a.active {
-    color: #c5c5c5;
+    color: #dec1df;
 }
 
 
