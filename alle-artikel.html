@@ -5,108 +5,31 @@
     <title>Blog</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" id="switch" type="text/css" href="style/stylesheet-light-mode.css">
+    <link rel="stylesheet" id="theme" href="style/stylesheet-light-mode.css">
 </head>
 <body>
 <div class="container">
 
     <!--======= Navigation =======-->
+    <header id="navigation"></header>
 
-    <!-- <header id="navigation"></header> -->
-
-    <header>
-        <div class="row mt-3">
-            <div class="col-md-3">
-            </div>
-            <div class="col-md">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="alle-artikel.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kontakt</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Farbschema</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" id="dark-theme" href="#">Dark</a>
-                            <a class="dropdown-item" id="pink-theme" href="#">Pink</a>
-                            <a class="dropdown-item" id="light-theme" href="#">Light</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+    <!--======= Blog =======-->
+    <main>
+        <div class="row mt-5">
+            <h2 class="mb-4">All blog posts</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 all-articles"></div>
         </div>
-    </header>
-
-    <!--=======================================
-       Alle Artikel
-    =======================================-->
-
-<main>
-    <div class="row mt-5">
-        <ul class="col-md all-articles list-unstyled">
-
-        </ul>
-    </div>
-</main>
-    <!-- <div class="row mt-5">lp-spacer
-        <div class="col-md-6">
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 1</h2>
-            </a>
-
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 2</h2>
-            </a>
-
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 3</h2>
-            </a>
-
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 4</h2>
-            </a>
-        </div>
-
-        <div class="col-md-6">
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 5</h2>
-            </a>
-
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 6</h2>
-            </a>
-
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 7</h2>
-            </a>
-
-            <a href="artikel/winterabend.html">
-                <img class="w-100" src="content/dummy-1400x600.jpg" alt="">
-                <h2 class="article-spacer">Titel 8</h2>
-            </a>
-        </div>
-    </div> -->
-
+    </main>
 
     <!--======= Social Media / Footer =======-->
     <footer id="footer"></footer>
-
 </div>
+
+<!--======= Javascript / JQuery =======-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/theme-switcher.js"></script>
+
 </body>
 </html>

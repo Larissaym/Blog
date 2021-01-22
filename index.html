@@ -5,44 +5,52 @@
     <title>Choose your color</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/stylesheet-light-mode.css">
+    <link rel="stylesheet" id="theme" href="style/stylesheet-light-mode.css">
 
 </head>
-<body style="background-color: #c5c5c5;">
-<div class="container">
-    <div class="row lp-spacer">
-        <div class="col-md "></div>
-        <div class="col-md-8">
-            <img class="w-100 article-spacer" src="content/dummy-logo.jpg" alt="logo">
+
+<body>
+    <div class="container">
+        <!--======= Logo  =======-->
+        <div class="row lp-spacer mt-5">
+            <div class="col-md "></div>
+            <div class="col-md-8 mt-5">
+                <img class="w-100 article-spacer mt-5 logo" src="content/logo-black.png" alt="logo">
+            </div>
+            <div class="col-md"></div>
         </div>
-        <div class="col-md"></div>
-    </div>
-      
-    <div class="row">
-        <div class="col-md"></div>
-        <div class="col-md-8">
-            <p class="text-center article-spacer">
-                Refreshhhhhh Dieser text hat eigentlich gar keinen wirklichen inhalt. aber er hat auch keine relevanz, und deswegen ist das
-                egal. er dient lediglich als platzhalter. um mal zu zeigen, wie diese stelle der seite aussieht, wenn ein paar zeilen
-                vorhanden sind. ob sich der text dabei gut fühlt, weiß ich nicht. So ohne wirklichen inhalt.
-            </p>
+        
+        <!--======= Intro Text  =======-->
+        <div class="row">
+            <div class="col-md"></div>
+            <div class="col-md-8">
+                <p class="text-center article-spacer">
+                    Welcome to Larissa Meyer's blog. To make your experience as pleasant as possible, you can choose your preferred color scheme. </br>
+                    To do this, click on the desired button and you will immediately be taken to the home page with your desired colors. If you do not like the colors, you can change them at any time in the menu at the top right.
+                </p>
+            </div>
+            <div class="col-md"></div>
         </div>
-        <div class="col-md"></div>
+
+        <!--======= Color Choosing Buttons  =======-->
+        <div class="row">
+            <div class="col-md-4">
+                <a href="home.html" id="dark-button" onclick="changeCSS('dark')" class="btn btn-block btn-lg btn-outline-dark">Dark</a>
+            </div>
+            <div class="col-md-4">
+                <a href="home.html" id="pink-button" onclick="changeCSS('pink')" class="btn btn-block btn-lg btn-outline-dark">Pink</a>
+            </div>
+            <div class="col-md-4">
+                <a href="home.html" id="light-button" onclick="changeCSS('light')" class="btn btn-block btn-lg btn-outline-dark">Light</a>
+            </div>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <a href="home.html" class="btn btn-block btn-lg btn-outline-dark">Dark</a>
-        </div>
-        <div class="col-md-4">
-            <a href="home.html" class="btn btn-block btn-lg btn-outline-dark">Pink</a>
-        </div>
-        <div class="col-md-4">
-            <a href="home.html" class="btn btn-block btn-lg btn-outline-dark">Light</a>
-        </div>
-    </div>
-</div>
+<!--======= Javascript / JQuery =======-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/theme-switcher.js"></script>
+
 </body>
 </html>

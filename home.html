@@ -5,89 +5,55 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" id="switch" type="text/css" href="style/stylesheet-light-mode.css">
+    <link rel="stylesheet" id="theme" href="style/stylesheet-light-mode.css">
 </head>
 <body>
 <div class="container">
 
     <!--======= Navigation =======-->
-        <!-- <header id="navigation"></header> -->
-
-        <header>
-            <div class="row mt-3">
-                <div class="col-md-3">
-                </div>
-                <div class="col-md">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="alle-artikel.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kontakt</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Farbschema</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" id="dark-theme" href="#">Dark</a>
-                                <a class="dropdown-item" id="pink-theme" href="#">Pink</a>
-                                <a class="dropdown-item" id="light-theme" href="#">Light</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+        <header id="navigation"></header>
 
     <!--======= Top article =======-->
     <main>
         <div class="row">
-            <div class="col-md">
-                <h3>
-                    Neuster Artikel
-                </h3>
+            <div class="col-md mb-2">
+                <h2>
+                    Top article
+                </h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-                <img class="w-100" src="content/dummy-1400x900.jpg" alt="">
+            <div class="col-md-6 ">
+                <img class="w-100" src="content/toedliches-gold.jpg" alt="winterabend">
                 <h2>
-                    An einem kalten Winterabend
+                    Deadly gold
                 </h2>
                 <p>
-                    Dieser text hat eigentlich gar keinen wirklichen inhalt. aber er hat auch
-                    keine relevanz, und deswegen ist das egal. er dient lediglich als platzhalter.
-                    um mal zu zeigen, wie diese stelle der seite aussieht, wenn ein
-                    paar zeilen vorhanden sind. ob sich der text dabei gut fühlt, weiß ich
-                    nicht. ich schätze, eher nicht, denn wer fühlt sich schon gut als platzhalter.
-                    aber irgendwer muss diesen job ja machen und deshalb kann ich
-                    es nicht ändern . ich könnte dem text höchstens ein bisschen gut zureden,
-                    dass er auch als platzhalter eine wichtige rolle spielt und durchaus
-                    gebraucht wird. könnte mir vorstellen, dass ihm das gut tut. denn das
-                    gefühl gebraucht zu werden tut doch jedem gut, oder? klar, er ist austauschbar.
-                    das darf ich ihm natürlich nicht verraten. denn austauschbar
+                    Two sides of a valley that could not be more different. 
+                    Divided by the wide lake, whose deepest point, according to the ancient stories, is the center of the earth. 
+                    Two worlds, one shining, the other covered by dark shadows. 
+                    Two stories, two destinies, of completely different people. 
+                    Connected by the passion of writing and the pursuit of the other side. 
                 </p>
                 <h4>
-                    <a href="article-details.html">
-                        Mehr...
+                    <a href="article-details.html?id=3">
+                        More...
                     </a>
                 </h4>
             </div>
 
             <!--======= Logo =======-->
             <div class="col-md-6">
-                <a href="home.html">
-                    <img class="w-100 article-spacer" src="content/dummy-logo.jpg" alt="logo">
+                <a href="index.html">
+                    <img class="w-100 article-spacer logo" src="content/logo-black.png" alt="logo">
                 </a>
                 
                 <!--======= More articles =======-->
                 <h3>
-                    Zuletzt
+                    Recent
                 </h3>
-                <div class="overflow-auto p-0 scrollbar">
+                <div class="overflow-auto scrollbar" >
                     <ul class="article-list list-unstyled"></ul>
                 </div>
             </div>
@@ -95,13 +61,15 @@
     </main>
 
 
-    <!--======= Social Media / Footer mb-3 =======-->
+    <!--======= Social Media / Footer =======-->
     <footer id="footer"></footer>
-
 </div>
+
+<!--======= Javascript / JQuery =======-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/theme-switcher.js"></script>
+
 </body>
 </html>

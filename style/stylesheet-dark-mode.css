@@ -8,13 +8,6 @@ body {
     background-color: black;
 }
 
-/* .square {
-    width: 180%;
-    height: 700%;
-    border: solid black;
-    background-color: black;
-} */
-
 h2, h3, p, img, li {
     margin-bottom: 1rem;
 }
@@ -60,6 +53,12 @@ h1, h2, h3, h4, header, footer, button, li, p {
     color: white;
 }
 
+.infos {
+    font-family: Avenir, sans-serif;
+    font-size: small;
+    color: white;
+}
+
 
 /*=======================================
  LINKEINSTELLUNGEN
@@ -88,9 +87,22 @@ a.active {
     color: #3f3f3f;
 }
 
+.logo {
+    filter:invert(1)
+}
 
+.btn {
+    color: white;
+    border-color: white;
+}
 
-/*=======================================
-BILDEINSTELLUNGEN
-=======================================*/
+.btn:hover {
+    color: black;
+    background-color: white;
+}
 
+.card {
+    border-color: #3f3f3f;
+    background-color: black;
+    color: white;
+}

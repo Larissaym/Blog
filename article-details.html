@@ -5,7 +5,7 @@
     <title>Winterabend</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" id="switch" type="text/css" href="style/stylesheet-light-mode.css">
+    <link rel="stylesheet" id="theme" href="style/stylesheet-light-mode.css">
 </head>
 <body>
 <div class="container">
@@ -14,61 +14,19 @@
     <header id="navigation"></header>
 
     <!--======= Article =======-->
-
 <main>
     <div class="row mt-5">
-        <div class="col-md-8">
-            <img class="w-100 article-spacer" src="../content/dummy-1400x900.jpg" alt="">
-            <h2>
-                An einem kalten Winterabend
-            </h2>
-            <p>
-                Dieser text hat eigentlich gar keinen wirklichen inhalt. aber er hat auch
-                keine relevanz, und deswegen ist das egal. er dient lediglich als platzhalter.
-                um mal zu zeigen, wie diese stelle der seite aussieht, wenn ein
-                paar zeilen vorhanden sind. ob sich der text dabei gut fühlt, weiß ich
-                nicht. ich schätze, eher nicht, denn wer fühlt sich schon gut als platzhalter.
-                aber irgendwer muss diesen job ja machen und deshalb kann ich
-                es nicht ändern . ich könnte dem text höchstens ein bisschen gut zureden,
-                dass er auch als platzhalter eine wichtige rolle spielt und durchaus
-                gebraucht wird. könnte mir vorstellen, dass ihm das gut tut. denn das
-                gefühl gebraucht zu werden tut doch jedem gut, oder? klar, er ist austauschbar.
-                das darf ich ihm natürlich nicht verraten. denn austauschbar ich könnte dem text höchstens ein bisschen gut zureden,
-                dass er auch als platzhalter eine wichtige rolle spielt und durchaus
-                gebraucht wird. könnte mir vorstellen, dass ihm das gut tut.
-            </p>
-            <p>
-                mal zu zeigen, wie diese stelle der seite aussieht, wenn ein
-                paar zeilen vorhanden sind. ob sich der text dabei gut fühlt, weiß ich
-                nicht. ich schätze, eher nicht, denn wer fühlt sich schon gut als platzhalter.
-                aber irgendwer muss diesen job ja machen und deshalb kann ich
-                es nicht ändern . ich könnte dem text höchstens ein bisschen gut zureden,
-                dass er auch als platzhalter eine wichtige rolle spielt und durchaus
-                gebraucht wird. könnte mir vorstellen, dass ihm das gut tut. denn das
-                gefühl gebraucht zu werden tut doch jedem gut, oder?
-            </p>
-            <p>
-                keine relevanz, und deswegen ist das egal. er dient lediglich als platzhalter.
-                um mal zu zeigen, wie diese stelle der seite aussieht, wenn ein
-                paar zeilen vorhanden sind. ob sich der text dabei gut fühlt, weiß ich
-                nicht. ich schätze, eher nicht, denn wer fühlt sich schon gut als platzhalter.
-                aber irgendwer muss diesen job ja machen und deshalb kann ich
-                es nicht ändern . ich könnte dem text höchstens ein bisschen gut zureden,
-                dass er auch als platzhalter eine wichtige rolle spielt und durchaus
-                gebraucht wird. könnte mir vorstellen, dass ihm das gut tut. denn das
-                gefühl gebraucht zu werden tut doch jedem gut, oder? klar, er ist austauschbar.
-                das darf ich ihm natürlich nicht verraten. denn austauschbar
-            </p>
-        </div>
+        <div class="col-md-8" id="article-details"> </div>
 
         <!--======= Logo =======-->
         <div class="col-md">
-                <a href="home.html">
-                    <img class="w-100 article-spacer" src="content/dummy-logo.jpg" alt="logo">
+                <a href="index.html">
+                    <img class="w-100 article-spacer logo" src="content/logo-black.png" alt="logo">
                 </a>
+
                 <!--======= More articles =======-->
                 <h3>
-                    Zuletzt
+                    Recent
                 </h3>
                 <div class="overflow-auto p-0 scrollbar">
                     <ul class="article-list list-unstyled"></ul>
@@ -79,11 +37,13 @@
 
     <!--======= Social Media / Footer =======-->
     <footer id="footer"></footer>
-
 </div>
+
+<!--======= Javascript / JQuery =======-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/theme-switcher.js"></script>
+
 </body>
 </html>

@@ -5,15 +5,8 @@ html {
 }
 
 body {
-    background-color: #50294d;
+    background-color: #874581;
 }
-
-/* .square {
-    width: 180%;
-    height: 700%;
-    border: solid black;
-    background-color: black;
-} */
 
 h2, h3, p, img, li {
     margin-bottom: 1rem;
@@ -63,6 +56,11 @@ h1, h2, h3, h4, header, footer, button, li, p {
     color: black;
 }
 
+.infos {
+    font-family: Avenir, sans-serif;
+    font-size: small;
+    color: black;
+}
 
 /*=======================================
  LINKEINSTELLUNGEN
@@ -95,9 +93,18 @@ a.active {
     color: #dec1df;
 }
 
+.btn {
+    color: black;
+    border-color: black;
+}
 
+.btn:hover {
+    color: #dec1df;
+    background-color: black;
+}
 
-/*=======================================
-BILDEINSTELLUNGEN
-=======================================*/
-
+.card {
+    border-color: #dec1df;
+    background-color: #874581;
+    color: black;
+}

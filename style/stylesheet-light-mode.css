@@ -4,13 +4,6 @@ html {
     color: black;
 }
 
-/* .square {
-    width: 180%;
-    height: 700%;
-    border: solid black;
-    background-color: black;
-} */
-
 h2, h3, p, img, li {
     margin-bottom: 1rem;
 }
@@ -55,6 +48,12 @@ p {
     text-align: justify;
 }
 
+.infos {
+    font-family: Avenir, sans-serif;
+    font-size: small;
+    color: black;
+}
+
 
 /*=======================================
  LINKEINSTELLUNGEN
@@ -74,10 +73,3 @@ a:hover, a:active {
 a.active {
     color: #c5c5c5;
 }
-
-
-
-/*=======================================
-BILDEINSTELLUNGEN
-=======================================*/
-
